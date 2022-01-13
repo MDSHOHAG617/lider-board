@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: #F3F1FF;
+    padding: 0;
+    
+    
+}
+
+
+
+header{
+    background-color: #0F2C67;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    
+    
+}
+header .left-sec{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+
+header .lft-img{
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+} 
+
+header .left-sec p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+} 
+
+header .right-sec{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+.right-sec a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    width: 870px;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+
+.section-title{
+    color: #0C1E7F;
+    margin-left: 33px;
+    margin-bottom:40px ;
+    margin-top: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    margin-bottom: -25px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    margin-left: 33px;
+}
+.player .player-name{
+    margin-left: 18px;
+}
+
+.player img{
+    width: 56px;
+}
+
+hr{
+    border: 1px solid #D1D1D1;
+  
+}
+
+
+
+
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 33px;
+    margin-bottom: 40px;
+
+}
+.blog{
+    display: flex;
+    margin: 10px 10px 20px 0;
+}
+
+.blog img{
+    width: 200px;
+
+}
+.blog-info{
+    margin-left: 20px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: #0C1E7F;
+
+}
+
+
+
+
+
+
+.crs-hdng{
+    margin-left: 43px;
+    margin-top: 0px;
+}
+
+
+.crs-hdng small{
+    color: red;
+    
+   
+}
+.bottom-sec{
+    display: flex;
+   
+
+    
+}
+
+.courses img{
+    width: 225px;
+    margin-left: 30px;
+    
+}
+
+.btm-info{
+    display: flex;
+    
+}
+
+.btm-info{
+    align-items: center;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid rgb(253, 0, 0);
+    border-radius: 18px;
+    width: 70px;
+    height: 15px;
+  
+    
+    
+}
+.btm-info {
+    margin-left: 43px;
+    
+}
+.fa-star{
+    color: #0C1E7F
+   
+}
+
+.btm-info p{
+    margin-left: 6px;
+}
+
+
+.hudai-aida-footer{
+    color: white;
+    margin-top: 30px;
+}
